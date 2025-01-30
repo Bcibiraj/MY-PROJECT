@@ -1,0 +1,406 @@
+*{
+    margin: 0px;
+}
+.items span{
+    font-size: 12px;
+    color: rgb(163,163,163);
+}
+.items h1{
+    font-family: "Jacques Francois", serif;
+    color: black;
+}
+.items h1::first-letter{
+    color: orange;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    
+}
+#one{
+    color:rgb(74,74,74);
+    font-size: 20px;
+}
+#two{
+    color: rgb(90,118,112);
+    font-size: 20px;
+}
+#three{
+    color: rgb(255,152,0);
+    font-size: 20px;
+
+}
+
+.heditems>a{
+    padding-left:20px ;
+    
+}
+.navcontainer{
+    display: flex;
+    column-gap:1px ;
+}
+.navitem{
+    display: none;
+    position: absolute;
+    background-color: white;
+    height:auto;
+    width:200px;
+}
+.navitem>a{
+    color: black;
+    padding: 30px 10px;
+}
+.nav_item_container:hover .navitem{
+    display: block;
+}
+.nav_item_container>span{
+    font-size: 14px;
+    padding: 2px 6px 8px 2px;
+    color: white;
+}
+                                                              /* section_1 */
+.section1{
+    display: grid;
+    grid-template-columns: repeat(3,420px);
+    grid-template-rows: 350px;
+    column-gap: 40px;
+    /* border: 1px solid; */
+    width: 1362px;
+
+
+}
+.section1_item1{
+    background-color: rgb(21,78,116);
+    color: white;
+    background-image: url(../../IMAGES/jspider.jpg);
+    background-size: 300px 300px;
+    border-radius: 0px 0px 5px 5px;
+    
+
+}
+.section1_item1>span{
+    color: rgb(255,152,0);
+    text-decoration: underline;
+}
+.section1_item1>h4{
+    font-family: "Open Sans", serif;
+}
+                                                               /* section1_item2_1 */
+.section1_item2{
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 420px;
+    box-shadow: 0px 0px 10px black;
+}                                                              
+.section1_item2_1{
+    background-color: rgb(245,245,245);
+    border-right: 3px solid rgb(90,118,112);
+    border-left: 3px solid rgb(90,118,112);
+    height: 60px;
+    width: 390px;
+  
+}
+#section1_item2_heading>span{
+    font-family: "Open Sans", serif;
+
+}
+.section1_item2_1 span{
+    font-size: 20px;
+}
+                                                              /* section1_item3 */
+.section1_item3{
+    box-shadow: 0px 0px 10px black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+    row-gap: 10px;
+}
+#number{
+    display: flex;
+    column-gap: 5px;
+    
+}
+#degrees_item{
+    display: flex;
+    column-gap: 5px;
+}
+#Mdegrees_item{
+    display: flex;
+    column-gap: 5px;
+}
+#section1_item3_head{
+    color: orangered;
+    text-decoration:underline;
+   
+}
+#section1_item3_year_deg_masters1{
+    background-color:rgb(74,74,74);
+    padding: 0px 170px;
+    color: white;
+
+}
+#section1_item3_year_deg_masters2{
+    background-color:rgb(74,74,74);
+    padding: 0px 160px;
+    color: white;
+
+}
+#section1_item3_year_deg_masters3{
+    background-color:rgb(74,74,74);
+    padding: 0px 155px;
+    color: white;
+
+}
+#_2025{
+    background-color:rgb(255,152,0);
+    padding: 0px 8px;
+    color: white;
+}
+#_2024{
+    background-color:rgb(90,118,112);
+    padding: 0px 8px;
+    color: white;
+}
+#_2023{
+    background-color:rgb(90,118,112);
+    padding: 0px 8px;
+    color: white;
+}
+#_2022{
+    background-color:rgb(90,118,112);
+    padding: 0px 8px;
+    color: white;
+}
+#_2021{
+    background-color:rgb(90,118,112);
+    padding: 0px 8px;
+    color: white;
+}
+#BE{
+    background-color:rgb(255,152,0);
+    padding: 0px 8px;
+    color: white;
+}
+#BSC{
+    background-color:rgb(255,152,0);
+    padding: 0px 8px;
+    color: white;
+}
+#ME{
+    background-color:rgb(255,152,0);
+    padding: 0px 8px;
+    color: white;
+}
+#MSC{
+    background-color:rgb(255,152,0);
+    padding: 0px 8px;
+    color: white;
+}
+#qustion{
+    background-color: rgb(90,118,112);
+    padding: 0px 8px;
+    color: white;
+}
+                                                                   /* section2 */
+.section2{
+    display:grid;
+    grid-template-columns: repeat(6,210px);
+    grid-template-rows: repeat(1,100px);
+    gap:10px;
+    /* border:1px solid; */
+    height:110px;
+    width: 1320px;
+}
+
+.section2_items{
+    box-shadow: 0px 0px 20px black;
+    text-align: center;
+}
+.section2_items>h1{
+    color: orangered;
+    font-size: 20px;
+    background-color: rgb(74,74,74);
+    
+}
+.main_section{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-content: center;
+    box-shadow: 0px 0px 20px blue;
+    width: 1360px;
+    height:auto;
+}
+                                                       /* section3 */
+.section3{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows:150px 220px 250px;
+    box-shadow: 0px 0px 5px yellowgreen;
+    height: auto;
+    width: auto;
+    gap:30px;
+}
+.section3_items{
+    box-shadow: 0px 0px 5px rgb(50, 205, 58);
+}
+#sec3d1{
+    grid-row: 1/2;
+    grid-column: 1/4;
+    text-align: center;
+    
+}
+#sec3d1>h1{
+    background-color: rgb(90,118,112);
+    padding: 10px 0px;
+    text-align: center;
+
+}
+                                           /* courses */
+#course1{
+    background-color: rgb(90,118,112);
+    color: white;
+    padding: 10px;
+} 
+#course2{
+    background-color: rgb(255,152,0);
+    color: white;
+    padding: 10px;
+}
+#sec3d1 span{
+    color: rgb(255,152,0);
+}
+#sec3d1 p{
+    padding: 10px;
+}                                               
+                                                  /* java */
+
+#sec3d2 h1{
+    background-color:rgb(245,245,245);
+    padding: 10px 0px;
+    color: rgb(255,152,8);
+   
+}
+#java1{
+    background-color: rgb(90,118,112);
+    color: white;
+    padding: 10px 32px;
+}
+#java2{
+    background-color: rgb(255,152,0);
+    color: white;
+    padding: 10px 32px;
+}
+                                                        /* J2EE */
+#sec3d3 h1{
+    background-color:rgb(245,245,245);
+    padding: 10px 0px;
+    color: rgb(255,152,8);
+   
+}
+                                                          /* MEAN */
+ #sec3d4 h1{
+    background-color:rgb(245,245,245);
+    padding: 10px 0px;
+    color: rgb(255,152,8);
+   
+}                                                         
+                                                            /* MERN */
+#sec3d5 h1{
+    background-color:rgb(245,245,245);
+    padding: 10px 0px;
+    color: rgb(255,152,8);
+                                                               
+} 
+                                                              /* Android Development */
+#sec3d6 h1{
+    background-color:rgb(245,245,245);
+    padding: 10px 0px;
+    color: rgb(255,152,8);
+                                                               
+}
+                                                                /* footercontainer */
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(9,150px);
+    grid-template-rows:100px;
+    /* box-shadow: 0px 0px 5px rgb(205, 50, 179); */
+}
+.footer{
+    /* box-shadow: 0px 0px 5px rgb(50, 205, 58); */
+}                                                                
+#footer1{
+    background: url(../../IMAGES/Deloitte.webp);
+    background-size: 150px 100px;
+}
+#footer2{
+    background: url(../../IMAGES/capgemini.png);
+    background-size: 150px 100px;
+}
+#footer3{
+    background: url(../../IMAGES/integra.jpg);
+    background-size: 150px 100px;
+}
+#footer4{
+    background: url(../../IMAGES/sharp.png);
+    background-size: 150px 100px;
+}
+#footer5{
+    background: url(../../IMAGES/efi.png);
+    background-size: 150px 100px;
+}
+#footer6{
+    background: url(../../IMAGES/@ris.png);
+    background-size: 150px 100px;
+}
+#footer7{
+    background: url(../../IMAGES/birlasoft.png);
+    background-size: 150px 100px;
+}
+#footer8{
+    background: url(../../IMAGES/3dplm.png);
+    background-size: 150px 100px;
+}
+#footer9{
+    background: url(../../IMAGES/allstate.png);
+    background-size: 150px 100px;
+}
+.footer1{
+    color: rgb(255,152,8);
+}
+.footer2{
+    color: rgb(90,118,112);
+}
+.footer3{
+    color: blue;
+}
+#strickyfooter{
+       position: sticky;
+       bottom:0px;
+       background-color: white;
+       padding: 20px;
+       font-size: 18px;
+}
+.footer1{
+      padding: 10px 10px;
+}
+.footer2{
+    padding: 10px 90px 10px 18px;
+}
+.footer3{
+    padding: 10px 12px;
+}
+.footer4{
+    padding: 10px 12px;
+}
